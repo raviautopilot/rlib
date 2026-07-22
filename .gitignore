@@ -1,0 +1,177 @@
+# ============================================
+# GRAPHIFY - Code Knowledge Graph
+# ============================================
+# Generated knowledge graph files (large, environment-specific)
+graphify-out/
+graphify-out/.rebuild.lock
+*.graph.json
+*.graph.db
+
+# ============================================
+# BINARIES & EXECUTABLES
+# ============================================
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.bin
+*.out
+*.zip
+*.tgz
+rbot.exe
+rbot.bin
+
+# ============================================
+# OPERATING SYSTEM FILES
+# ============================================
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+ehthumbs.db
+Thumbs.db
+
+# ============================================
+# IDE & EDITOR FILES
+# ============================================
+# JetBrains (IntelliJ, PyCharm, etc.)
+.idea/
+*.iml
+*.suo
+
+# Visual Studio
+*.ntvs*
+*.njsproj
+*.sln
+
+# VSCode
+.vscode/
+
+# Vim/Neovim
+*.swp
+*.swo
+*.sw?
+*~
+
+# Other editors
+.todo/
+
+# ============================================
+# DEPENDENCY DIRECTORIES
+# ============================================
+vendor/
+local/
+bin/
+app-data/
+node_modules/
+jspm_packages/
+
+# ============================================
+# BUILD OUTPUTS & DISTRIBUTIONS
+# ============================================
+/dist/
+/build/
+/out/
+coverage.*
+/coverage/
+*.lcov
+.nyc_output
+
+# ============================================
+# LOG FILES
+# ============================================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# ============================================
+# TEMPORARY FILES
+# ============================================
+tmp/
+/tmp/
+/temp/
+*.tmp
+*.temp
+*.pid
+*.seed
+*.pid.lock
+pids/
+
+# ============================================
+# ENVIRONMENT & CONFIGURATION
+# ============================================
+# Environment variables
+.env
+.env.*
+!.env.example
+.env.test
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Application config
+infra/env.local
+cmd/config.json
+secret.json
+http-client.private.env.json
+
+# Custom configs
+*--system_prompt=*
+
+# ============================================
+# USER-SPECIFIC FILES
+# ============================================
+.bashrc
+.bash_history
+.zshrc
+.zsh_history
+*bash-rc*
+tmp/.bash_profile
+
+# ============================================
+# CACHE FILES
+# ============================================
+.cache/
+.eslintcache
+.npm
+.yarn-integrity
+.node_repl_history
+
+# ============================================
+# AIDER (AI Pair Programming)
+# ============================================
+.aider*
+
+# ============================================
+# CERTIFICATES
+# ============================================
+certs/
+
+# ============================================
+# PACKAGE MANAGER LOCK FILES
+# ============================================
+*package-lock.json
+*yarn.lock
+*pnpm-lock.yaml
+
+# ============================================
+# ANTIGRAVITY (Google AI IDE)
+# ============================================
+.antigravity*
+
+# ============================================
+# SCREENSHOTS
+# ============================================
+**/screenshots/
+**/screenshot/
+laxmi/.promote_hash
+varam/.promote_hash
